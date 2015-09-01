@@ -15,3 +15,8 @@ After installing Lambda Store, use following shortcuts:
 **OSX**
 
   * Command-Shift-K to open fuzzy search for function
+
+## Installation
+
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+    git clone git@github.com:allaud/lambda_store_sublime.git
