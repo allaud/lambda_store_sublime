@@ -1,0 +1,3 @@
+[
+    { "keys": ["alt+shift+k"], "command": "lambda_store" }
+]

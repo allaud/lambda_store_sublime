@@ -1,0 +1,9 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            { "command": "lambda_store" }
+        ]
+    }
+]

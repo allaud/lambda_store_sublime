@@ -1,0 +1,4 @@
+{
+    // Endpoint to fetch functions
+    "endpoint": "http://cropme.ru:8122"
+}
