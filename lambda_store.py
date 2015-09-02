@@ -20,12 +20,12 @@ class LambdaStoreInsertCommand(sublime_plugin.TextCommand):
 
 class LambdaStoreCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        methods_list = resp(LIST_URL.format(settings.get('endpoint'))).get('functions', [])
-        self.view.window().show_quick_panel(methods_list, lambda x:self.on_select(x))
+        self.methods_list = resp(LIST_URL.format(settings.get('endpoint'))).get('functions', [])
+        self.view.window().show_quick_panel(self.methods_list, lambda x:self.on_select(x))
     def on_select(self, index):
         if index < 0:
             return
-        func_source = resp(FUNC_URL.format(settings.get('endpoint')) + methods_list[index]).get('func', '')
+        func_source = resp(FUNC_URL.format(settings.get('endpoint')) + self.methods_list[index]).get('func', '')
         self.view.run_command("lambda_store_insert", {'to_insert': func_source})
 
 def plugin_loaded():
@@ -34,5 +34,3 @@ def plugin_loaded():
 
 if int(sublime.version()) < 3000:
     plugin_loaded()
-
-
