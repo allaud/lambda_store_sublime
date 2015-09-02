@@ -2,9 +2,9 @@
 
 ![Screenshot](https://x.cropme.ru/sublime_lambda.gif)
 
-Lambda Store is a Sublime Text 2 & 3 plugin for quick and simple access to a huge library to useful functions (check out [functions repository](https://github.com/allaud/lambda_store))
+Lambda Store is a Sublime Text 2 & 3 plugin for quick and simple access to a huge library of useful functions (check out [functions repository](https://github.com/allaud/lambda_store))
 
-Lambda Store allows development using functions, not frameworks or libraries.
+Lambda Store allows development to use functions, not frameworks or libraries.
 
 ## Documentation
 
