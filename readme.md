@@ -1,6 +1,6 @@
 ## Lambda Store
 
-![Screenshot](https://x.cropme.ru/sublime_lambda.gif)
+![Screenshot](http://online.krownguards.com/stuff/lambda2.gif)
 
 Lambda Store is a Sublime Text 2 & 3 plugin for quick and simple access to a huge library of useful functions (check out [functions repository](https://github.com/allaud/lambda_store))
 
